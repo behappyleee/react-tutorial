@@ -27,6 +27,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	implementation 'javax.servlet:jstl'
+	implementation 'org.springframework.boot:spring-boot-devtools:1.5.16.RELEASE'
 }
 
 tasks.named('test') {
